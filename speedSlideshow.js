@@ -1,5 +1,5 @@
 window.addEventListener("load", addListeners);
-var images = ["resources/SpeedStart.PNG", "resources/SpeedCardChange.PNG", "resources/SpeedWin.PNG"]
+var images = ["tree/main/resources/SpeedStart.PNG", "tree/main/resources/SpeedCardChange.PNG", "tree/main/resources/SpeedWin.PNG"]
 var caption = ["Start of game", "Card added to middle stack", "End of game"]
 var index = 0;
 var timer;
