@@ -1,5 +1,5 @@
 window.addEventListener("load", addListeners);
-var images = ["tree/main/resources/hangmanHome.PNG", "tree/main/resources/hangmanLogin.PNG", "tree/main/resources/hangmanGame.PNG"]
+var images = ["./blob/main/resources/hangmanHome.PNG", "./blob/main/resources/hangmanLogin.PNG", "./blob/main/resources/hangmanGame.PNG"]
 var caption = ["Home page & high score table", "Login page", "Game being played"]
 var index = 0;
 var timer;

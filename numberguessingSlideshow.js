@@ -1,5 +1,5 @@
 window.addEventListener("load", addListeners);
-var images = ["tree/main/resources/numberRegister.PNG", "tree/main/resources/numberGame.PNG", "tree/main/resources/numberScore.PNG"]
+var images = ["./blob/main/resources/numberRegister.PNG", "./blob/main/resources/numberGame.PNG", "./blob/main/resources/numberScore.PNG"]
 var caption = ["Register page", "Game in progress", "High score table"]
 var index = 0;
 var timer;
