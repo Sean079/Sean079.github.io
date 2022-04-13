@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<script src="hangmanSlideshow.js"></script>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	</head style="padding: 150px;">
+	<body>
+		<div class="container">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="NumberGuessingGame.html">Number Guessing</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="HangmanGame.html">Hangman</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="ScholarshipApp.html">Scholarship</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="CaliforniaSpeedGame.html">California Speed Game</a>
+				</li>
+			</ul>
+			<div class="container">
+			<h1 style="text-align: center;">Hangman Game</h1>
+			<div class="container" style="text-align: center;">
+				<img id="picture"
+					src="resources/hangmanHome.png"
+					height="400"
+					width="700">
+				<p id="caption">
+					Home page & high score table
+				</p>
+				<p>
+					<button id="prev">Prev</button>
+					<button id="next">Next</button>
+				</p>
+			</div>
+			<p>
+				For this project, we were given the task of utilizing Websockets for asynchronous communication to create a Hangman
+				game utilizing a login, logout, and register page, whereby a user's username and 
+				hashed-and-salted password would be stored in a database. When playing a game, whenever the player
+				successfully guesses their word, it will store it into a high score table sorted based
+				on both their word length and how many tries they have left. You can access the code repo <a href="https://github.com/Sean079/Hangman">here</a>.
+			</p>
+			<h3>Technologies</h3>
+			<ul>
+				<li>Websocket</li>
+				<li>.NET</li>
+				<li>C#</li>
+				<li>SQL</li>
+			</ul>
+			<h5>Code contribution: High Scores</h5>
+			<img id="picture"
+				src="resources/hangmanCode.png"
+				height="900"
+				width="1000"
+				style="display: block; margin-left: auto; margin-right: auto;">
+		</div>
+		</div>
+	</body>
+</html>
